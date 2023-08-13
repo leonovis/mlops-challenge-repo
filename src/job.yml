@@ -7,9 +7,10 @@ command: >-
 inputs:
   training_data: 
     type: uri_folder 
-    path: 
+    path:     mlops-challenge-repo/src
+
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
 compute: 
-experiment_name: 
+experiment_name: mlops challenge-run
 description: 
